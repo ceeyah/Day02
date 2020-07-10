@@ -1,13 +1,16 @@
 
-void ft_putchar(char k);
+
+int ft_putchar(char k)
 
 
-	void ft_print_numbers(void);
+void ft_print_numbers(void)
 {	
-	char     u;
-	  	u = 0;
-	  	while(u >=9)
+		char     u;
+		u = '0';
+	  	while(u <='9')
 		{	
-		ft_putchar(k);
-  		u++;
-		}
+		ft_putchar(u);
+  		u = u + 1;
+		}	
+}
+
